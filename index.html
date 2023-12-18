@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="label">
+        <h2>Player 1 = O</h2><h2>Player 2 = X</h2>
+    </div>
+    <div id="gameFrame">
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+        <div class="gameBox"></div>
+    </div>
+    <div id="resultContent" class="hidden">
+        <p id="gameResult"></p>
+        <p id="winnerName"></p>
+        <button id="reStartbtn" onclick="backAction.reStart()">Restart</button>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: rgba(252, 253, 244, 0.541);
+}
+
+h1,h2{
+    text-align: center;
+    margin: 35px;
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 8px;
+    color: olivedrab;
+}
+
+h2{
+    display: inline;
+}
+
+#label{ 
+    display: flex;
+    justify-content: center;
+}
+
+#gameFrame{
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px;
+    height: 540px;
+    width: 540px;
+    margin: 0px auto;
+    
+}
+
+#gameFrame div{
+    border: 2px solid rgb(80, 75, 57);
+    color: olivedrab;
+    font-size:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#gameFrame div:hover{
+    background-color: rgb(243, 250, 255);
+}
+
+#resultContent{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(249, 255, 255);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border: 2px solid rgb(168, 190, 190);
+    border-radius: 10px;
+}
+
+#resultContent.hidden{
+    display:none;
+}
+
+#gameResult{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#winnerName{
+    font-size: 20px;
+}
+
+p{
+    margin:15px;
+    letter-spacing: 3px;
+}
+
+button{
+    width: 60%;
+    border-radius: 10px;
+    border: 0px;
+    height: 35px;
+    background-color: beige;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+
+
